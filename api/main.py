@@ -19,9 +19,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 #MODEL = tf.keras.models.load_model("../saved_models/1")
-#MODEL = tf.keras.layers.TFSMLayer("../saved_models/1, call_endpoint='serving_default'")
 Model= tf.keras.layers.TFSMLayer("../saved_models/1", call_endpoint='serving_default')
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
