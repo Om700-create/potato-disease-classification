@@ -4,7 +4,6 @@ The potato crop is found at fourth as a major crop in the world, after rice, whe
 
 Not to take early Late Blight disease management would destroy the whole farm within a few days. For decades many researchers have experimented on plant disease detection and classification using computer vision via different approaches and algorithms. Many researchers used traditional machine learning algorithms which require a handcrafted feature extraction to detect a given image. Besides, the data collected were under a laboratory setup which makes it less reliable while testing in real cultivation farms captured images of the potato.
 
-Heterogeneous image datasets were collected from (Holeta, Ethiopia) potato farm with the help of two plant pathologists. The dataset correctly labeled with two classes as ‘Healthy’ and ‘Late Blight’, and the image has variety meaning some of the images captured with less noisy background image and others with a highly noisy environment. Under ‘Late Blight’ class 63 images were collected and under ‘Healthy’ class 363 images were collected. Finally, the prepared dataset could be used for different researches that aimed at plant disease detection and classification.
 
 
 
